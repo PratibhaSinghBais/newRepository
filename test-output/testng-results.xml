@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Vagrant Assignment" duration-ms="33202" started-at="2022-07-25T08:14:20 IST" finished-at="2022-07-25T08:14:53 IST">
+    <groups>
+      <group name="smoke">
+        <method signature="TestCases.searchMovieIMDb()[pri:1, instance:com.testVagrant.tests.CompareIMDB_WIKI_Test@659a969b]" name="searchMovieIMDb" class="com.testVagrant.tests.CompareIMDB_WIKI_Test"/>
+        <method signature="TestCases.searchMovieWiki()[pri:3, instance:com.testVagrant.tests.CompareIMDB_WIKI_Test@659a969b]" name="searchMovieWiki" class="com.testVagrant.tests.CompareIMDB_WIKI_Test"/>
+        <method signature="TestCases.compareMovieDetails()[pri:4, instance:com.testVagrant.tests.CompareIMDB_WIKI_Test@659a969b]" name="compareMovieDetails" class="com.testVagrant.tests.CompareIMDB_WIKI_Test"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="PositiveTest" duration-ms="33202" started-at="2022-07-25T08:14:20 IST" finished-at="2022-07-25T08:14:53 IST">
+      <class name="com.testVagrant.tests.CompareIMDB_WIKI_Test">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.testVagrant.tests.CompareIMDB_WIKI_Test@659a969b]" name="openBrowser" is-config="true" duration-ms="7714" started-at="2022-07-25T08:14:20 IST" finished-at="2022-07-25T08:14:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="homePageTitleIMDB()[pri:0, instance:com.testVagrant.tests.CompareIMDB_WIKI_Test@659a969b]" name="homePageTitleIMDB" duration-ms="596" started-at="2022-07-25T08:14:28 IST" finished-at="2022-07-25T08:14:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleIMDB -->
+        <test-method status="PASS" signature="extentWrite()[pri:0, instance:com.testVagrant.tests.CompareIMDB_WIKI_Test@659a969b]" name="extentWrite" is-config="true" duration-ms="451" started-at="2022-07-25T08:14:28 IST" finished-at="2022-07-25T08:14:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentWrite -->
+        <test-method status="PASS" signature="searchMovieIMDb()[pri:1, instance:com.testVagrant.tests.CompareIMDB_WIKI_Test@659a969b]" name="searchMovieIMDb" duration-ms="12544" started-at="2022-07-25T08:14:29 IST" depends-on-methods="com.testVagrant.tests.CompareIMDB_WIKI_Test.homePageTitleIMDB" finished-at="2022-07-25T08:14:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchMovieIMDb -->
+        <test-method status="PASS" signature="extentWrite()[pri:0, instance:com.testVagrant.tests.CompareIMDB_WIKI_Test@659a969b]" name="extentWrite" is-config="true" duration-ms="41" started-at="2022-07-25T08:14:41 IST" finished-at="2022-07-25T08:14:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentWrite -->
+        <test-method status="PASS" signature="homePageTitleWiki()[pri:2, instance:com.testVagrant.tests.CompareIMDB_WIKI_Test@659a969b]" name="homePageTitleWiki" duration-ms="3432" started-at="2022-07-25T08:14:42 IST" finished-at="2022-07-25T08:14:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleWiki -->
+        <test-method status="PASS" signature="extentWrite()[pri:0, instance:com.testVagrant.tests.CompareIMDB_WIKI_Test@659a969b]" name="extentWrite" is-config="true" duration-ms="9" started-at="2022-07-25T08:14:45 IST" finished-at="2022-07-25T08:14:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentWrite -->
+        <test-method status="PASS" signature="searchMovieWiki()[pri:3, instance:com.testVagrant.tests.CompareIMDB_WIKI_Test@659a969b]" name="searchMovieWiki" duration-ms="7521" started-at="2022-07-25T08:14:45 IST" depends-on-methods="com.testVagrant.tests.CompareIMDB_WIKI_Test.homePageTitleWiki" finished-at="2022-07-25T08:14:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchMovieWiki -->
+        <test-method status="PASS" signature="extentWrite()[pri:0, instance:com.testVagrant.tests.CompareIMDB_WIKI_Test@659a969b]" name="extentWrite" is-config="true" duration-ms="23" started-at="2022-07-25T08:14:52 IST" finished-at="2022-07-25T08:14:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentWrite -->
+        <test-method status="PASS" signature="compareMovieDetails()[pri:4, instance:com.testVagrant.tests.CompareIMDB_WIKI_Test@659a969b]" name="compareMovieDetails" duration-ms="1" started-at="2022-07-25T08:14:53 IST" depends-on-methods="com.testVagrant.tests.CompareIMDB_WIKI_Test.searchMovieIMDb, com.testVagrant.tests.CompareIMDB_WIKI_Test.searchMovieWiki" finished-at="2022-07-25T08:14:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareMovieDetails -->
+        <test-method status="PASS" signature="extentWrite()[pri:0, instance:com.testVagrant.tests.CompareIMDB_WIKI_Test@659a969b]" name="extentWrite" is-config="true" duration-ms="7" started-at="2022-07-25T08:14:53 IST" finished-at="2022-07-25T08:14:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentWrite -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.testVagrant.tests.CompareIMDB_WIKI_Test@659a969b]" name="closeBrowser" is-config="true" duration-ms="806" started-at="2022-07-25T08:14:53 IST" finished-at="2022-07-25T08:14:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.testVagrant.tests.CompareIMDB_WIKI_Test -->
+    </test> <!-- PositiveTest -->
+  </suite> <!-- Test Vagrant Assignment -->
+</testng-results>

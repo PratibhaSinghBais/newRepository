@@ -1,0 +1,43 @@
+# Created on 2022-08-27T22:42:03.747
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:744)
+
+
+# Created on 2022-08-27T22:42:06.992
+Unexpected IOException with stream: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'LTIN252374', ip: '192.168.0.117', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\848769\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59611}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 736a647ec43a24ec37de0872074103b4
+*** Element info: {Using=xpath, value=(//div[.='Release date']//parent::th)//following-sibling::td/div/ul/li}
+
+# Created on 2022-08-27T22:42:07.048
+Unexpected IOException with stream: 
+
+
+# Created on 2022-08-27T22:42:07.226
+Unexpected IOException with stream: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'LTIN252374', ip: '192.168.0.117', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\848769\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59611}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 736a647ec43a24ec37de0872074103b4
+*** Element info: {Using=xpath, value=//th[.='Country']//following-sibling::td}
+
+# Created on 2022-08-27T22:42:07.502
+Unexpected IOException with stream: 
+
+
+# Created on 2022-08-27T22:42:07.558
+Unexpected IOException: 6,1,com.testVagrant.tests.TestCases,searchMovieWiki(com.testVagrant.tests.TestCases),null,null,null
+
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Vagrant IMDB_WIKI_Data_Comparison Assessment">
+	  <test name="PositiveScenarioTests">
+		  <classes>
+		  		<class name="com.testVagrant.tests.CompareIMDB_WIKI_Test"/>
+		  </classes>
+	  </test>
+</suite>

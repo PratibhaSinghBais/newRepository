@@ -1,0 +1,29 @@
+# Created on 2022-08-27T22:25:44.286
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:744)
+
+
+# Created on 2022-08-27T22:25:46.974
+Unexpected IOException: 8,1,com.testVagrant.tests.TestCases,homePageTitleWiki(com.testVagrant.tests.TestCases),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=103.0.5060.114)\000ABuild info: version: '4.0.0-alpha-6'\002C revision: '5f43a29cfc'\000ASystem info: host: 'LTIN252374'\002C ip: '192.168.0.117'\002C os.name: 'Windows 8.1'\002C os.arch: 'x86'\002C os.version: '6.3'\002C java.version: '1.8.0'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 103.0.5060.114\002C chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4...\002C userDataDir: C:\005CUsers\005C848769\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:54915}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 810734df5e0f826621543d61f1f9a292,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=103.0.5060.114)\000ABuild info: version: '4.0.0-alpha-6'\002C revision: '5f43a29cfc'\000ASystem info: host: 'LTIN252374'\002C ip: '192.168.0.117'\002C os.name: 'Windows 8.1'\002C os.arch: 'x86'\002C os.version: '6.3'\002C java.version: '1.8.0'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 103.0.5060.114\002C chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4...\002C userDataDir: C:\005CUsers\005C848769\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:54915}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 810734df5e0f826621543d61f1f9a292,TestCases.homePageTitleWiki:91 \00BB NoSuchWindow no such window: target window al...,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=103.0.5060.114)\000ABuild info: version: '4.0.0-alpha-6'\002C revision: '5f43a29cfc'\000ASystem info: host: 'LTIN252374'\002C ip: '192.168.0.117'\002C os.name: 'Windows 8.1'\002C os.arch: 'x86'\002C os.version: '6.3'\002C java.version: '1.8.0'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 103.0.5060.114\002C chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4...\002C userDataDir: C:\005CUsers\005C848769\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:54915}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 810734df5e0f826621543d61f1f9a292\000A\0009at com.testVagrant.tests.TestCases.homePageTitleWiki(TestCases.java:91)\000A
+
+
+# Created on 2022-08-27T22:25:47.281
+Unexpected IOException: 5,1,com.testVagrant.tests.TestCases,searchMovieWiki(com.testVagrant.tests.TestCases),smoke,null,null
+
+
+# Created on 2022-08-27T22:25:47.309
+Unexpected IOException: 9,1,com.testVagrant.tests.TestCases,searchMovieWiki(com.testVagrant.tests.TestCases),null,Method TestCases.searchMovieWiki()[pri:3\002C instance:com.testVagrant.tests.TestCases@18ee631] depends on not successfully finished methods,null
+
+
+# Created on 2022-08-27T22:25:47.321
+Unexpected IOException: 5,1,com.testVagrant.tests.TestCases,compareMovieDetails(com.testVagrant.tests.TestCases),smoke,null,null
+
+
+# Created on 2022-08-27T22:25:47.326
+Unexpected IOException: 9,1,com.testVagrant.tests.TestCases,compareMovieDetails(com.testVagrant.tests.TestCases),null,Method TestCases.compareMovieDetails()[pri:4\002C instance:com.testVagrant.tests.TestCases@18ee631] depends on not successfully finished methods,null
+
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Test Vagrant Assignment]">
+  <test thread-count="5" verbose="0" name="PositiveTest(failed)">
+    <classes>
+      <class name="com.testVagrant.tests.TestCases">
+        <methods>
+          <include name="searchMovieWiki"/>
+          <include name="openBrowser"/>
+          <include name="compareReleaseDate"/>
+          <include name="homePageTitleWiki"/>
+          <include name="extentWrite"/>
+          <include name="searchMovieIMDb"/>
+          <include name="homePageTitleIMDB"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testVagrant.tests.TestCases -->
+    </classes>
+  </test> <!-- PositiveTest(failed) -->
+</suite> <!-- Failed suite [Test Vagrant Assignment] -->
